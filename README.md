@@ -2,7 +2,7 @@
 
 A client-server model which processes the request one by one does not seem good to the user as the time delay for each request to be processed will be large.
 
-## AIM
+## Aim
 Multiple users(clients) may want to access some information from the server. All of them may simultaneously request the resources from the server. For better user experience the server needs to be more responsive that is it should be able to process as many requests as possible.Multithreading is the concept of using multiple threads to execute concurrently. In order to make the server more responsive we would assign the requests to different threads, so that the maximum number of requests can be processed concurrently. 
 
 ### Learnings :
